@@ -1,7 +1,9 @@
 낙서장
 ---
 
-깃 GUI로 하려면 이거 설마 유료해야되는거냐
+1일차: https://www.acmicpc.net/problemset?sort=ac_desc&algo=25
+
+
 
 방명록
 ---
