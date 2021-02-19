@@ -7,7 +7,8 @@ def combin(n, r):
     "calculating combination"
     if memo[n][r]:
         return memo[n][r]
-    
+    if n == r or r == 0:
+        return 1
     return combin(n-1, r - 1) + combin(n-1, r)
 
 
@@ -15,4 +16,3 @@ if __name__ == '__main__':
     for i in range(int(input())):
         n, m = map(int, input().split())
         print(combin(m, n))
-     
